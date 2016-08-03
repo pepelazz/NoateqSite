@@ -1346,6 +1346,9 @@ th {
 .pull-left {
   float: left; }
 
+.text-center {
+  text-align: center; }
+
 .social-links {
   position: absolute;
   top: 100px;
@@ -1363,3 +1366,12 @@ th {
 @media (min-width: 992px) {
   .slide-mobile {
     display: none; } }
+
+.slide-download-btn {
+  cursor: pointer;
+  width: 200px; }
+  @media (max-width: 768px) {
+    .slide-download-btn {
+      width: 100px; } }
+  .slide-download-btn:hover {
+    opacity: 0.5; }
