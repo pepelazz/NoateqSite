@@ -1355,3 +1355,11 @@ th {
 
 .parallax-container {
   height: 400px; }
+
+@media (max-width: 992px) {
+  .slide-desktop {
+    display: none; } }
+
+@media (min-width: 992px) {
+  .slide-mobile {
+    display: none; } }
