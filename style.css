@@ -1372,6 +1372,6 @@ th {
   width: 200px; }
   @media (max-width: 768px) {
     .slide-download-btn {
-      width: 100px; } }
+      width: 150px; } }
   .slide-download-btn:hover {
     opacity: 0.5; }
